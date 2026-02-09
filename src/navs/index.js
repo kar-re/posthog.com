@@ -31,6 +31,10 @@ export const dataPipelines = {
                     name: 'Managed',
                 },
                 {
+                    name: 'Attio',
+                    url: '/docs/cdp/sources/attio',
+                },
+                {
                     name: 'Stripe',
                     url: '/docs/cdp/sources/stripe',
                 },
@@ -1074,6 +1078,10 @@ export const handbookSidebar = [
             {
                 name: 'Co-marketing',
                 url: '/handbook/marketing/co-marketing',
+            },
+            {
+                name: 'Influencers',
+                url: '/handbook/growth/marketing/influencers',
             },
             {
                 name: 'Email & comms',
@@ -2239,12 +2247,16 @@ export const docsMenu = {
                             ],
                         },
                         {
+                            name: 'Remix',
+                            url: '/docs/libraries/remix',
+                        },
+                        {
                             name: 'Svelte',
                             url: '/docs/libraries/svelte',
                         },
                         {
-                            name: 'Remix',
-                            url: '/docs/libraries/remix',
+                            name: 'TanStack Start',
+                            url: '/docs/libraries/tanstack-start',
                         },
                         {
                             name: 'Vue.js',
@@ -3406,16 +3418,27 @@ export const docsMenu = {
                         { name: 'Overview', url: '/docs/web-analytics/installation' },
                         { name: 'AI wizard', url: '/docs/web-analytics/installation/ai-wizard' },
                         { name: 'Web', url: '/docs/web-analytics/installation/web' },
+                        { name: 'HTML snippet', url: '/docs/web-analytics/installation/html-snippet' },
                         { name: 'React', url: '/docs/web-analytics/installation/react' },
                         { name: 'Next.js', url: '/docs/web-analytics/installation/nextjs' },
-                        { name: 'GTM', url: '/docs/web-analytics/installation/gtm' },
                         { name: 'Vue', url: '/docs/web-analytics/installation/vue' },
                         { name: 'Nuxt', url: '/docs/web-analytics/installation/nuxt' },
+                        { name: 'Angular', url: '/docs/web-analytics/installation/angular' },
                         { name: 'Svelte', url: '/docs/web-analytics/installation/svelte' },
-                        { name: 'WordPress', url: '/docs/web-analytics/installation/wordpress' },
                         { name: 'Astro', url: '/docs/web-analytics/installation/astro' },
-                        { name: 'Framer', url: '/docs/web-analytics/installation/framer' },
+                        { name: 'Remix', url: '/docs/web-analytics/installation/remix' },
+                        { name: 'TanStack Start', url: '/docs/web-analytics/installation/tanstack' },
+                        { name: 'iOS', url: '/docs/web-analytics/installation/ios' },
+                        { name: 'Android', url: '/docs/web-analytics/installation/android' },
+                        { name: 'React Native', url: '/docs/web-analytics/installation/react-native' },
+                        { name: 'Flutter', url: '/docs/web-analytics/installation/flutter' },
+                        { name: 'GTM', url: '/docs/web-analytics/installation/gtm' },
+                        { name: 'Shopify', url: '/docs/web-analytics/installation/shopify' },
+                        { name: 'WordPress', url: '/docs/web-analytics/installation/wordpress' },
                         { name: 'Webflow', url: '/docs/web-analytics/installation/webflow' },
+                        { name: 'Framer', url: '/docs/web-analytics/installation/framer' },
+                        { name: 'Bubble', url: '/docs/web-analytics/installation/bubble' },
+                        { name: 'Docusaurus', url: '/docs/web-analytics/installation/docusaurus' },
                         { name: 'Phoenix', url: '/docs/web-analytics/installation/phoenix' },
                     ],
                 },
@@ -4618,6 +4641,27 @@ export const docsMenu = {
                     color: 'orange',
                 },
                 {
+                    name: 'Concepts',
+                },
+                {
+                    name: 'Element selection',
+                    url: '/docs/product-tours/element-selection',
+                    icon: 'IconCursorClick',
+                    color: 'orange',
+                },
+                {
+                    name: 'Tour progression',
+                    url: '/docs/product-tours/tour-progression',
+                    icon: 'IconArrowRight',
+                    color: 'orange',
+                },
+                {
+                    name: 'Button actions',
+                    url: '/docs/product-tours/button-actions',
+                    icon: 'IconButton',
+                    color: 'orange',
+                },
+                {
                     name: 'Guides',
                 },
                 {
@@ -4732,6 +4776,10 @@ export const docsMenu = {
                         },
                         {
                             name: 'Managed',
+                        },
+                        {
+                            name: 'Attio',
+                            url: '/docs/data-warehouse/sources/attio',
                         },
                         {
                             name: 'Azure SQL Server',
@@ -5520,6 +5568,24 @@ export const docsMenu = {
                     url: '/docs/posthog-ai/tools',
                     icon: 'IconWrench',
                     color: 'blue',
+                },
+                {
+                    name: 'Modes',
+                    url: '/docs/posthog-ai/modes',
+                    icon: 'IconToggle',
+                    color: 'yellow',
+                },
+                {
+                    name: 'Plan mode',
+                    url: '/docs/posthog-ai/plan-mode',
+                    icon: 'IconMap',
+                    color: 'green',
+                },
+                {
+                    name: 'Research mode',
+                    url: '/docs/posthog-ai/research-mode',
+                    icon: 'IconSearch',
+                    color: 'seagreen',
                 },
                 {
                     name: 'Session summaries',
